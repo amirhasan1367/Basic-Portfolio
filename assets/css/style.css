@@ -1,0 +1,95 @@
+/* This aligns entire page to the center */
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    width: 960px;
+    display: table-cell;
+    vertical-align: middle;
+    background-color: #ececec;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+#top-bar{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 90px;
+    background-color: #ffffff;
+    z-index: -1;
+    border-bottom: 2px solid #cccccc;
+}
+
+/*floating for the header*/
+h1 {
+    float: left;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 27px;
+    margin: 0 0 21.440px 0;
+}
+.menu {
+    float: right;
+    height: 18px;
+    padding: 0px 18px 0 18px;
+    background-color: #ffffff;
+    margin: 36px 0px 39.440px 0px;
+    color: #777777;
+    border-right: 0.5px solid #cccccc;
+}
+#main-content{
+    background-color: #ffffff;
+ }
+h2 {
+    clear: both;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    padding: 20px;
+    margin: 20px 20px 0px 20px;
+    border-bottom: 2px solid #cccccc;
+}
+img {
+    float:left;
+    margin: 0px 20px 20px 20px;
+    color: white
+}
+p, #contact-body-text {
+    margin: 20px;
+    border-bottom: 20px solid #ffffff;
+}
+#name-box, #email-box{
+    height:20px;
+    border: 0.5px solid #cccccc;
+    margin:10px 0 10px 0;
+    padding:10px;
+}
+#message-box{
+    height:150px;
+    border: 0.5px solid #cccccc;
+    margin:10px 0 10px 0;
+}
+#submit{
+    padding:10px 20px 10px 20px;
+    width: 60px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
+/*#ab-me-body-text{
+    background-color: #ffffff;
+}*/
+#footer{
+    position: fixed;
+    bottom:0px;
+    left: 0px;
+    background-color: #666666;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 35px 0 10px 0;
+    border-top: 5px solid #4aaaa5;
+}
