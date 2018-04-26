@@ -107,18 +107,36 @@ p, #contact-body-text {
     width: 808px;
 }
 
-#box-tl{
+#box-tl, #box-tr, #box-ml, #box-mr, #box-bl{
     float: left;
     width: 230px;
     height: 175px;
     margin: 20px;
     position: relative;
-    background-image:url("../images/triv.jpg");
-    background-size: 230px 175px;
     top: 20px;
     left:0px;
 }
-#hangman{
+#box-tl{
+    background-image:url("../images/bio.jpeg");
+    background-size: 230px 175px;
+}
+#box-tr{
+    background-image:url("../images/personal.jpg");
+    background-size: 230px 175px;
+}
+#box-ml{
+    background-image:url("../images/career.jpg");
+    background-size: 230px 175px;
+}
+#box-mr{
+    background-image:url("../images/family.jpg");
+    background-size: 230px 175px;
+}
+#box-bl{
+    background-image:url("../images/hobby.jpg");
+    background-size: 230px 175px;
+}
+#bio, #personal, #career, #family, #hobby{
     width:230px;
     height:20px;
     padding: 15px 0 15px 0;
