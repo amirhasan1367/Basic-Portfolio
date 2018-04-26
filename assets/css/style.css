@@ -1,14 +1,13 @@
-/* This aligns entire page to the center */
+/* common lines */
 html {
     display: table;
     margin: auto;
 }
 
 body {
-    width: 960px;
     display: table-cell;
     vertical-align: middle;
-    background-color: #ececec;
+    background-image: url("../images/dust_scratches.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
 }
@@ -23,7 +22,7 @@ body {
     border-bottom: 2px solid #cccccc;
 }
 
-/*floating for the header*/
+
 h1 {
     float: left;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -53,7 +52,7 @@ h2 {
     margin: 20px 20px 0px 20px;
     border-bottom: 2px solid #cccccc;
 }
-img {
+#my-pic {
     float:left;
     margin: 0px 20px 20px 20px;
     color: white
@@ -62,6 +61,29 @@ p, #contact-body-text {
     margin: 20px;
     border-bottom: 20px solid #ffffff;
 }
+
+#footer{
+    position: fixed;
+    bottom:0px;
+    left: 0px;
+    background-color: #666666;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 35px 0 10px 0;
+    border-top: 5px solid #4aaaa5;
+}
+
+/* index page only */
+#index-body{
+    width: 960px;
+}
+
+/* contact page only */
+#contact-body{
+    width: 808px;
+}
+
 #name-box, #email-box{
     height:20px;
     border: 0.5px solid #cccccc;
@@ -80,17 +102,36 @@ p, #contact-body-text {
     color: #ffffff;
 }
 
-/*#ab-me-body-text{
-    background-color: #ffffff;
-}*/
-#footer{
-    position: fixed;
-    bottom:0px;
-    left: 0px;
-    background-color: #666666;
-    color: #ffffff;
-    width: 100%;
-    text-align: center;
-    padding: 35px 0 10px 0;
-    border-top: 5px solid #4aaaa5;
+/* portfolio page only */
+#portfolio-body{
+    width: 808px;
 }
+
+#box-tl{
+    float: left;
+    width: 230px;
+    height: 175px;
+    margin: 20px;
+    position: relative;
+    background-image:url("../images/triv.jpg");
+    background-size: 230px 175px;
+    top: 20px;
+    left:0px;
+}
+#hangman{
+    width:230px;
+    height:20px;
+    padding: 15px 0 15px 0;
+    position: absolute;
+    top: 110px;
+    color:#ffffff;
+    background-color: #4aaaa5;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+#games{
+    width: 808px;
+    height: 675px;
+    background-color: #ffffff;
+}
+
