@@ -48,9 +48,10 @@ h2 {
     clear: both;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
-    padding: 20px;
-    margin: 20px 20px 0px 20px;
+    padding: 38px 20px 38px 20px;
+    margin: 20px;
     border-bottom: 2px solid #cccccc;
+    font-size: 32px;
 }
 #my-pic {
     float:left;
